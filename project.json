@@ -44,7 +44,7 @@
             {
                 "title": "Confection d'un patron en papier",
                 "duration": 7200,
-                "content": "Afin d'ajuster les dimensions de la tenture , il est fortement conseillé de réaliser un patron en papier. Celui-ci nous permet de réaliser les découpes de tissus aux bonnes dimensions et d'anticiper les longueurs de fils nécessaires pour l'électronique entre chaque pictogramme.",
+                "content": "Afin d'ajuster les dimensions de la tenture , il est fortement conseillé de réaliser un patron en papier. Celui-ci nous permettra de réaliser nos découpes de tissus aux bonnes dimensions et d'anticiper les longueurs de fils nécessaires entre chaque étape figurée par un dessin.\n",
                 "inputs": [
                     {
                         "tool": {
@@ -58,7 +58,7 @@
             {
                 "title": "Réalisation et préparation des pictogrammes figurant chaque étape",
                 "duration": 3600,
-                "content": "Chaque étape est symbolisée par un dessin que vous pouvez personaliser. \nUne fois les pictogrammes dessinés, il faut les vectoriser pour qu'ils puissent être brodés à l'aide de la brodeuse numérique.\nPour cela ouvrir les dessins avec le logiciel Inkscape. Aller dans Chemin>Vectoriser le bitmap.\nEnregistrer les fichier au format SVG.\n\nSi vous souhaitez reproduire la tenture à l'identique, télécharger le dossier picto.zip disponible ci-contre.",
+                "content": "Chaque étape est symbolisée par un dessin que vous pouvez personaliser ou[ télécharger ici ](images/picto.zip)si vous souhaitez reproduire la tenture à l'identique.\n\nUne fois les dessins réalisés, il faut les vectoriser pour qu'ils puissent être brodés à l'aide de la brodeuse numérique.\n\nPour cela ouvrir les dessins avec le logiciel Inkscape. Aller dans Chemin>Vectoriser le bitmap.\n\nEnregistrer le fichier au format SVG.",
                 "inputs": [
                     {
                         "file": {
@@ -67,61 +67,6 @@
                         }
                     }
                 ]
-            },
-            {
-                "title": "Confection de la cabine du camion",
-                "duration": 14400,
-                "content": ""
-            },
-            {
-                "title": "Confection du fourgon",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Fabrication du volant",
-                "duration": 3600,
-                "content": ""
-            },
-            {
-                "title": "Interrupteur du volant",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Fabrication des roues",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Réalisation des pictogrammes à la brodeuse numérique",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Circuit électronique",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Téléversement du code",
-                "duration": 300,
-                "content": ""
-            },
-            {
-                "title": "Préparation des leds",
-                "duration": 14400,
-                "content": ""
-            },
-            {
-                "title": "Fabrication du boitier électronique",
-                "duration": 3600,
-                "content": "",                
-            },
-            {
-                "title": "Assemblage de l'ensemble",
-                "duration": 300,
-                "content": ""
             }
         ]
     }
