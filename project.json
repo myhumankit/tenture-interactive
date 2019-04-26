@@ -119,9 +119,8 @@
                 "content": "",
                 "inputs": [
                     {
-                        "component": {
+                        "tool": {
                             "slug": "machine-laser",
-                            "quantity": 1,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
                         }
