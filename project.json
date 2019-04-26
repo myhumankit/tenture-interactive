@@ -116,17 +116,7 @@
             {
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
-                "content": "",
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": "machine-laser",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    }
-                ]
+                "content": "",                
             },
             {
                 "title": "Assemblage de l'ensemble",
