@@ -4,7 +4,7 @@
 
 Tenture interactive pour inciter un enfant atteint de trouble de spectre autistique léger (TSA) à dormir dans sa chambre en instituant un rituel du coucher.
 
-![featured_image](https://raw.githubusercontent.com/myhumankit/myworkshop/master/images/default_featured_image.jpg)
+![featured_image](images/tenture-finale.jpg)
 
 ## Liens
  * [documentation du projet](https://docs.humanlab.me/myhumankit/tenture-interactive)
