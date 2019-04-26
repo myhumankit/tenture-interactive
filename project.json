@@ -5,7 +5,7 @@
         "short_description": "Tenture interactive pour inciter un enfant atteint de trouble de spectre autistique léger (TSA) à dormir dans sa chambre en instituant un rituel du coucher.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Tenture interactive pour inciter un enfant atteint de trouble de spectre autistique léger (TSA) à dormir dans sa chambre en instituant un rituel du coucher.",
+        "about": "Tenture interactive pour inciter un enfant atteint de trouble de spectre autistique léger (TSA) à dormir dans sa chambre en instituant un rituel du coucher.\n\n\nContexte\nCe projet est né dans le cadre des PESIS pour la promotion AES de Askoria.\nLe but était de repérer une problématique et de travailler sur un cas d'usage précis pour réaliser un projet. \n\nLe choix s'est arrêté sur un enfant atteint de trouble de spectre autistique léger (TSA) qui refuse de dormir dans sa chambre.\nL'objectif était de réaliser un prototype qui encourage l'enfant à retourner dormir dans sa chambre en instituant un rituel du coucher ludique.\n\nNous avons déterminé 5 grandes étapes pour ce rituel :\n * Brossage de dents\n * Toilettes\n * Calin\n * Histoire audio\n * Musique douce pour s'endormir\n\nEtude des goûts de l'enfant\n\nL'enfant de 7 ans est passionné par les camions nous avons donc décidé de réaliser une tenture en forme de camion traversée par une route où figurent de part et d'autre les 5 étapes sous forme de patch en tissus. \n\nLe principe: A la fin du dinér, les parents remettent le volant du camion à l'enfant qui doit monter dans sa chambre pour démarrer le rituel du coucher. ",
         "status": "draft",
         "links": [
             {
@@ -18,7 +18,6 @@
                 "text": "page wiki du projet sur le wiki du Humanlab",
                 "fa5_icon": "fab fa-wikipedia-w"
             },
-            
             {
                 "url": "https://github.com/myhumankit/tenture-interactive",
                 "text": "code source de la documentation sur GitHub",
@@ -28,9 +27,9 @@
         "contributors": [
             {
                 "full_name": "Delphine Bézier",
+                "role": "Fabmanager référent",
                 "email": "delphine@myhumankit.org",
-                "github_username": "mnct",
-                "role": "Fabmanager référent"
+                "github_username": "mnct"
             }
         ]
     }
