@@ -31,6 +31,43 @@
                 "email": "delphine@myhumankit.org",
                 "github_username": "mnct"
             }
+        ],
+        "featured_images": [
+            {
+                "image": {
+                    "url": "images/tenture-finale.jpg",
+                    "caption": "Tenture finale"
+                }
+            }
+        ],
+        "steps": [
+            {
+                "title": "Confection d'un patron en papier",
+                "duration": 7200,
+                "content": "Afin d'ajuster les dimensions de la tenture , il est fortement conseillé de réaliser un patron en papier. Celui-ci nous permettra de réaliser nos découpes de tissus aux bonnes dimensions et d'anticiper les longueurs de fils nécessaires entre chaque étape figurée par un dessin.\n",
+                "inputs": [
+                    {
+                        "tool": {
+                            "slug": "ciseaux",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ]
+            },
+            {
+                "title": "Réalisation et préparation des pictogrammes figurant chaque étape",
+                "duration": 3600,
+                "content": "Chaque étape est symbolisée par un dessin que vous pouvez personaliser ou[ télécharger ici ](images/picto.zip)si vous souhaitez reproduire la tenture à l'identique.\n\nUne fois les dessins réalisés, il faut les vectoriser pour qu'ils puissent être brodés à l'aide de la brodeuse numérique.\n\nPour cela ouvrir les dessins avec le logiciel Inkscape. Aller dans Chemin>Vectoriser le bitmap.\n\nEnregistrer le fichier au format SVG.",
+                "inputs": [
+                    {
+                        "file": {
+                            "name": "Pictogrammes",
+                            "url": "images/picto.zip"
+                        }
+                    }
+                ]
+            }
         ]
     }
 }
