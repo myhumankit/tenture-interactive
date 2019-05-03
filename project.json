@@ -136,6 +136,38 @@
                             "github_repository": "myworkshop-humanlab-components"
                         }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/fabrication-volant1.jpg",
+                            "caption": "fabrication volant1"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/fabrication-volant2.jpg",
+                            "caption": "fabrication volant2"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/fabrication-volant3.jpg",
+                            "caption": "fabrication volant3"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/gabarit-volant.jpg",
+                            "caption": "gabarit du volant en carton"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/volant.jpg",
+                            "caption": "volant"
+                        }
+                    }
                 ]
             },
             {
