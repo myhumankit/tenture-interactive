@@ -58,7 +58,7 @@
             {
                 "title": "Réalisation et préparation des pictogrammes figurant chaque étape",
                 "duration": 3600,
-                "content": "Chaque étape est symbolisée par un dessin que vous pouvez personaliser. \nUne fois les pictogrammes dessinés, il faut les vectoriser pour qu'ils puissent être brodés à l'aide de la brodeuse numérique.\nPour cela ouvrir les dessins avec le logiciel Inkscape. Aller dans Chemin>Vectoriser le bitmap.\nEnregistrer les fichier au format SVG.\n\nSi vous souhaitez reproduire la tenture à l'identique, télécharger le dossier picto.zip disponible ci-contre.",
+                "content": "Chaque étape est symbolisée par un dessin que vous pouvez personaliser. \nUne fois les pictogrammes dessinés, il faut les vectoriser pour qu'ils puissent être brodés à l'aide de la brodeuse numérique.\nPour cela ouvrir les dessins avec le logiciel Inkscape. Aller dans Chemin>Vectoriser le bitmap.\nEnregistrer les fichier au format SVG.\n\nSi vous souhaitez reproduire la tenture à l'identique, télécharger le dossier de pictogrammes disponible ci-contre.",
                 "inputs": [
                     {
                         "file": {
@@ -71,7 +71,40 @@
             {
                 "title": "Confection de la cabine du camion",
                 "duration": 14400,
-                "content": ""
+                "content": "En se basant sur le patron de la cabine, découper le tissus clair d'ameublement aux dimensions du patron en ajoutant 3cm pour faire les ourlets.\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate .\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "tissus-d-ameublement-clair-coton-100*60 cm",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ouate-de-cellulose",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "divers-tissus",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "machine-a-coudre",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools "
+                        }
+                    }
+                ]
             },
             {
                 "title": "Confection du fourgon",
@@ -119,9 +152,8 @@
                 "content": "",
                 "inputs": [
                     {
-                        "component": {
+                        "tool": {
                             "slug": "machine-laser",
-                            "quantity": 1,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
                         }
