@@ -127,6 +127,14 @@
                             "slug": "bande-tissu-15*80cm",
                             "quantity": 2
                         }
+                    },
+                    {
+                        "component": {
+                            "slug": "contreplaque-peuplier-ep-3mm",
+                            "quantity": 0.06,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
                     }
                 ]
             },
