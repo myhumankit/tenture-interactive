@@ -130,7 +130,7 @@
                     },
                     {
                         "component": {
-                            "slug": "contreplaque-peuplier-ep-3mm",
+                            "slug": "contreplaque-peuplier-ep-3-mm",
                             "quantity": 0.06,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-components"
