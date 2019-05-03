@@ -114,7 +114,21 @@
             {
                 "title": "Fabrication du volant",
                 "duration": 3600,
-                "content": ""
+                "content": "Découper dans du tissu 1 bande de tissu noir 100 cm X 10 cm.\nDécouper dans du tissu 2 bandes de tissu noir 15 cm x 80 cm.\nDécouper deux cercles de 7 cm de diamètre dans du tissus d'une autre couleur.\nDécouper un cercle de 6cm de diamètre en carton bois ou contreplaqué de 3mm.\n\nCoudre la bande de tissu pour en faire la forme d'un boudin qu'on remplit avec de la ouate et coudre les extrémités pour réaliser le volant. \n\nConfectionner avec les autres boudins la forme du volant selon le modèle présenté en photo.\n\nDécouper un cercle  de 6 cm de diamètre en contreplaqué ou en carton bois à l'aide d'une machine de découpe laser ou d'un cutter. Le placer entre deux cercles en tissu rembourrés de ouate. Coudre les cercles de tissu entre eux pour former le centre du volant, et le coudre sur le volant.\n\nLe centre du volant en principe klaxon, est ici pour notre usage le bouton déclencheur des différentes étapes de la tenture.",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " 1-bande-tissu-noir100*10cm ",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bande-tissu-15*80cm",
+                            "quantity": 2
+                        }
+                    }
+                ]
             },
             {
                 "title": "Interrupteur du volant",
