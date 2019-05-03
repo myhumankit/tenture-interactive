@@ -71,7 +71,7 @@
             {
                 "title": "Confection de la cabine du camion",
                 "duration": 14400,
-                "content": "Découper le tissus clair d'ameublement aux dimensions du patron papier en ajoutant 3cm pour faire les ourlets.\n\nFaire une poche en tissus  à l'emplacement du volant dans laquelle viendra se glisser le support du volant (disque en carton bois).\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate . Les coudre aux emplacements prévus sur la cabine\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
+                "content": "Découper le tissus clair d'ameublement aux dimensions du patron papier en ajoutant 3cm pour faire les ourlets.\n\nFaire une poche en tissus  en fome de carré de 20 cm de côté, et la coudre  à l'emplacement du volant dans laquelle viendra se glisser le support du volant (disque en carton bois).\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate . Les coudre aux emplacements prévus sur la cabine\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
                 "inputs": [
                     {
                         "component": {
@@ -172,8 +172,8 @@
             },
             {
                 "title": "Interrupteur du volant",
-                "duration": 300,
-                "content": "Découper un cercle dans une planche de contreplaqué d'une épaisseur de 3 mm et d'un diamètre de 19 cm à la laser.\n\nSouder deux fils de connexion Rouge et Noir sur chaque patte du bouton poussoir.\n\nPercer 4 trous au centre de la planche de contreplaqué. Insérer un bouton poussoir .\n\n\n\nFixer à la \"colle à chaud\" le bouton interrupteur sur la planche Placer la planche dans une pochette pré-déterminée de la cabine - derrière la fenêtre par exemple ",
+                "duration": 1800,
+                "content": "Découper un cercle dans du carton bois d'une épaisseur de 3 mm et d'un diamètre de 19 cm à la laser.\n\nSouder deux fils de connexion Rouge et Noir sur chaque patte du bouton poussoir.\n\nPercer 4 trous au centre de la planche de contreplaqué. Insérer un bouton poussoir .\n\n\n\nFixer à la \"colle à chaud\" le bouton interrupteur sur la planche Placer la planche dans une pochette pré-déterminée de la cabine - derrière la fenêtre par exemple ",
                 "inputs": [
                     {
                         "component": {
@@ -216,6 +216,14 @@
                             "slug": "colle-a-chaud",
                             "quantity": 1
                         }
+                    },
+                    {
+                        "component": {
+                            "slug": "carton-bois-ep-3-mm",
+                            "quantity": 0.19,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
                     }
                 ],
                 "media": [
@@ -229,8 +237,64 @@
             },
             {
                 "title": "Fabrication des roues",
-                "duration": 300,
-                "content": ""
+                "duration": 7200,
+                "content": "Nettoyer à l'essence les chambres à air si nécessaire. Couper deux morceaux de chambre à air.\nLes remplir de ouate pour leur donner la forme de pneus.\nRaccorder les extremités de chaque chambre à air avec de la colle cyano liquide (glue).\nCoudre 3 morceaux de scratch sur chaque roue pour les fixer à la tenture.",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "chambre-a-air-velo",
+                            "quantity": 2
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "essence",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "colle-cyano",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-velcro-noir-20mm-crochets",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-velcro-noir-20mm-boucles",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "ciseaux",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "fil-a-coudre",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "aiguille-a-coudre",
+                            "quantity": 1
+                        }
+                    }
+                ]
             },
             {
                 "title": "Réalisation des pictogrammes à la brodeuse numérique",
