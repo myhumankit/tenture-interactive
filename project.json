@@ -304,7 +304,7 @@
             {
                 "title": "Circuit électronique pour contrôler les leds",
                 "duration": 300,
-                "content": "Couper au cutter morceau de veroboard à bande de 8 colonnes x 6 lignes.\nPercer les trous pour coupeer les pistes figurant en rouge et blan sur le circuit.\nSouder les résistances, puis les fils allant aux éléments qui ne sont pas soudés directement sur le circuit (bouton poussoir et interrupteur) et entrée alimentation micro usb.\n",
+                "content": "Couper au cutter un morceau de veroboard à bandes de 8 colonnes x 6 lignes.\nPercer les trous pour couper les pistes figurant en rouge et blanc sur le circuit.\nSouder les résistances, puis les fils allant aux éléments qui ne sont pas soudés directement sur le circuit (bouton poussoir et interrupteur et entrée alimentation micro usb).\n",
                 "inputs": [
                     {
                         "component": {
