@@ -298,13 +298,94 @@
             },
             {
                 "title": "Réalisation des pictogrammes à la brodeuse numérique",
-                "duration": 300,
-                "content": ""
+                "duration": 21600,
+                "content": "Selon la brodeuse utilisée il faudra utiliser le logiciel associé et convertir les fichiers svg se trouvant dans le dossier pictogrammes au format adapté.\n\nChoisir de préférence du tissu clair ou blanc afin de bien voir les leds au travers.\n\n"
             },
             {
-                "title": "Circuit électronique",
+                "title": "Circuit électronique pour contrôler les leds",
                 "duration": 300,
-                "content": ""
+                "content": "Couper au cutter morceau de veroboard à bande de 8 colonnes x 6 lignes.\nPercer les trous pour coupeer les pistes figurant en rouge et blan sur le circuit.\nSouder les résistances, puis les fils allant aux éléments qui ne sont pas soudés directement sur le circuit (bouton poussoir et interrupteur) et entrée alimentation micro usb.\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "veroboard-a-bande",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "Teensy32",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "Teensy-carte-adaptateur-audio",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "condensateur électrolytique 1000uF",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "resistance-470-ohms",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "resistance-10-kohms",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "alimentation-micro-usb-femelle",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "interrupteur-SPST",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bouton-poussoir-miniature",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-leds-neopixel-WS2812-RGB",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "cutter",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/circuit_neopixels_teensy_tenture_interractive.png",
+                            "caption": "circuit pour leds neopixels"
+                        }
+                    }
+                ]
             },
             {
                 "title": "Téléversement du code",
