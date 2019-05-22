@@ -366,6 +366,29 @@
                 ]
             },
             {
+                "title": "Préparation des leds",
+                "duration": 14400,
+                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " \tfil-de-cablage-multibrins",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-leds-neopixel-WS2812-RGB.json",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ]
+            },
+            {
                 "title": "Réalisation des pictogrammes à la brodeuse numérique",
                 "duration": 21600,
                 "content": "Selon la brodeuse utilisée il faudra utiliser le logiciel associé et convertir les fichiers svg se trouvant dans le dossier pictogrammes au format adapté.\n\nChoisir de préférence du tissu clair ou blanc afin de bien voir les leds au travers.\n\n"
@@ -529,29 +552,6 @@
                 ]
             },
             {
-                "title": "Préparation des leds",
-                "duration": 14400,
-                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": " \tfil-de-cablage-multibrins",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "ruban-leds-neopixel-WS2812-RGB.json",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    }
-                ]
-            },
-            {
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
                 "content": "Découper à la machine laser le fichier DXF ci-joint sur du contreplaqué de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\n",
@@ -606,7 +606,7 @@
             {
                 "title": "Assemblage de l'ensemble",
                 "duration": 300,
-                "content": "Couper un morceau de veroboard à bande de 12 7 (voir circuit).\nRéaliser le circuit en se référant au schéma."
+                "content": ""
             }
         ]
     }
