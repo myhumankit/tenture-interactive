@@ -168,14 +168,14 @@
                 "media": [
                     {
                         "image": {
-                            "url": "fabrication-route2.jpg",
-                            "caption": "fabrication route"
+                            "url": "images/fabrication-route2.jpg",
+                            "caption": "fabrication route 1"
                         }
                     },
                     {
                         "image": {
-                            "url": "fabrication-route3.jpg",
-                            "caption": "fabrication route"
+                            "url": "images/fabrication-route3.jpg",
+                            "caption": "fabrication route 2"
                         }
                     }
                 ]
