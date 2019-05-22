@@ -53,6 +53,20 @@
                             "github_repository": "myworkshop-humanlab-tools"
                         }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "patron-papier.jpg",
+                            "caption": "patron en papier"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "principe-fonctionnement.jpg",
+                            "caption": "Principe de fonctionnement"
+                        }
+                    }
                 ]
             },
             {
