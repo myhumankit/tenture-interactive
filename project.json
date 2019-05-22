@@ -197,13 +197,13 @@
                 "media": [
                     {
                         "image": {
-                            "url": "fabrication-route2.jpg",
+                            "url": "images/fabrication-route2.jpg",
                             "caption": "fabrication route"
                         }
                     },
                     {
                         "image": {
-                            "url": "fabrication-route3.jpg",
+                            "url": "images/fabrication-route3.jpg",
                             "caption": "fabrication route"
                         }
                     }
