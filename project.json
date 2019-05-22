@@ -35,12 +35,6 @@
         "featured_images": [
             {
                 "image": {
-                    "url": "images/tenture-finale.jpg",
-                    "caption": "Tenture finale"
-                }
-            },
-            {
-                "image": {
                     "url": "images/camion_fini.jpg",
                     "caption": "Tenture finale"
                 }
