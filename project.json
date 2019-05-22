@@ -107,6 +107,43 @@
                 "content": "Selon la brodeuse utilisée il faudra utiliser le logiciel associé et convertir les fichiers svg se trouvant dans le dossier pictogrammes au format adapté.\n\nChoisir de préférence du tissu clair ou blanc afin de bien voir les leds au travers.\n\n"
             },
             {
+                "title": "Préparation des leds",
+                "duration": 14400,
+                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds. Sur la photo vous ne verrez qu'une led, nous avons finalement opté pour les assembler deux par deux.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " \tfil-de-cablage-multibrins",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-leds-neopixel-WS2812-RGB.json",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/prepa-leds.jpg",
+                            "caption": "préparation des leds"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/prepa-leds-tuyau.jpg",
+                            "caption": "Insertion leds dans le tuyau"
+                        }
+                    }
+                ]
+            },
+            {
                 "title": "Confection de la cabine du camion",
                 "duration": 14400,
                 "content": "Découper le tissus clair d'ameublement aux dimensions du patron papier en ajoutant 3cm pour faire les ourlets.\n\nFaire une poche en tissus en forme de carré de 20 cm de côté, et la coudre  à l'emplacement du volant dans laquelle viendra se glisser le support du volant (disque en carton bois).\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate . Les coudre aux emplacements prévus sur la cabine\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
@@ -166,9 +203,9 @@
                 ]
             },
             {
-                "title": "Ajout des éléments de décor (la route) et des pictogrammes figurant chaque étape",
+                "title": "Ajout des éléments de décor : la route et les pictogrammes figurant chaque étape",
                 "duration": 300,
-                "content": "Positionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguilles à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\nCoudre ensuite à la machine les pictogrammes préalablement confectionnés aux endroits déterminés sur le patron.",
+                "content": "Positionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguilles à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\nCoudre ensuite à la machine les pictogrammes préalablement confectionnés aux endroits déterminés sur le patron.\n",
                 "media": [
                     {
                         "image": {
@@ -210,6 +247,28 @@
                 "title": "Fabrication du volant",
                 "duration": 3600,
                 "content": "Découper dans du tissu 1 bande de tissu noir 100 cm X 10 cm.\nDécouper dans du tissu 2 bandes de tissu noir 15 cm x 80 cm.\nDécouper deux cercles de 7 cm de diamètre dans du tissus d'une autre couleur.\nDécouper un cercle de 6cm de diamètre en carton bois ou contreplaqué de 3mm.\n\nCoudre la bande de tissu pour en faire la forme d'un boudin qu'on remplit avec de la ouate et coudre les extrémités pour réaliser le volant. \n\nConfectionner avec les autres boudins la forme du volant selon le modèle présenté en photo.\n\nDécouper un cercle  de 6 cm de diamètre en contreplaqué ou en carton bois à l'aide d'une machine de découpe laser ou d'un cutter. Le placer entre deux cercles en tissu rembourrés de ouate. Coudre les cercles de tissu entre eux pour former le centre du volant, et le coudre sur le volant.\n\nLe centre du volant en principe klaxon, est ici pour notre usage le bouton déclencheur des différentes étapes de la tenture.",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " 1-bande-tissu-noir100*10cm ",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bande-tissu-15*80cm",
+                            "quantity": 2
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "contreplaque-peuplier-ep-3-mm",
+                            "quantity": 0.06,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ],
                 "media": [
                     {
                         "image": {
@@ -239,28 +298,6 @@
                         "image": {
                             "url": "images/volant.jpg",
                             "caption": "volant"
-                        }
-                    }
-                ],
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": " 1-bande-tissu-noir100*10cm ",
-                            "quantity": 1
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "bande-tissu-15*80cm",
-                            "quantity": 2
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "contreplaque-peuplier-ep-3-mm",
-                            "quantity": 0.06,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
                         }
                     }
                 ]
@@ -387,43 +424,6 @@
                         "component": {
                             "slug": "aiguille-a-coudre",
                             "quantity": 1
-                        }
-                    }
-                ]
-            },
-            {
-                "title": "Préparation des leds",
-                "duration": 14400,
-                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds. Sur la photo vous ne verrez qu'une led, nous avons finalement opté pour les assembler deux par deux.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": " \tfil-de-cablage-multibrins",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "ruban-leds-neopixel-WS2812-RGB.json",
-                            "quantity": 1,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    }
-                ],
-                "media": [
-                    {
-                        "image": {
-                            "url": "images/prepa-leds.jpg",
-                            "caption": "préparation des leds"
-                        }
-                    },
-                    {
-                        "image": {
-                            "url": "images/prepa-leds-tuyau.jpg",
-                            "caption": "Insertion leds dans le tuyau"
                         }
                     }
                 ]
