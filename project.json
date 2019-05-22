@@ -554,7 +554,7 @@
             {
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
-                "content": "Découper à la machine laser le fichier DXF ci-joint sur du MDF de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\n",
+                "content": "Découper à la machine laser le fichier DXF ci-joint sur du contreplaqué de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\n",
                 "inputs": [
                     {
                         "tool": {
