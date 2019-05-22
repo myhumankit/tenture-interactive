@@ -412,7 +412,15 @@
             {
                 "title": "Téléversement du code",
                 "duration": 300,
-                "content": ""
+                "content": "",
+                "inputs": [
+                    {
+                        "file": {
+                            "name": "code/AES_2019_Tenture_interractive.ino",
+                            "url": "Code arduino pour leds et déclenchement des pistes audio"
+                        }
+                    }
+                ]
             },
             {
                 "title": "Préparation des leds",
@@ -441,7 +449,7 @@
             {
                 "title": "Confection de la route",
                 "duration": 300,
-                "content": "Bande de scratch fil aiguilles tissu moelleux doux\n\nPositionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguiklle à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\n",
+                "content": "Bande de scratch fil aiguilles tissu moelleux doux\n\nPositionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguilles à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\n",
                 "inputs": [
                     {
                         "component": {
