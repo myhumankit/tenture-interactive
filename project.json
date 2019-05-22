@@ -554,13 +554,51 @@
             {
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
-                "content": "",
+                "content": "Découper à la machine laser le fichier DXF ci-joint sur du MDF de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\n",
                 "inputs": [
                     {
                         "tool": {
                             "slug": "machine-laser",
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "file": {
+                            "name": "Boîtier pour le montage électronique",
+                            "url": "documents/Tenture_box_120x80x70_3mm.dxf"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "contreplaque-peuplier-ep-3-mm",
+                            "quantity": 1
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/boite1.jpg",
+                            "caption": "Vue des parties découpées"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/boite2.jpg",
+                            "caption": "Vue du montage du boitier"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/boite3.jpg",
+                            "caption": "Vue du boitier monté"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/boite4.jpg",
+                            "caption": "Vue du boitier monté"
                         }
                     }
                 ]
