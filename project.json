@@ -137,6 +137,14 @@
                             "github_repository": "myworkshop-humanlab-tools "
                         }
                     }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/cabine2.jpg",
+                            "caption": "Cabine"
+                        }
+                    }
                 ]
             },
             {
