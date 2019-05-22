@@ -104,7 +104,7 @@
             {
                 "title": "Confection de la cabine du camion",
                 "duration": 14400,
-                "content": "Découper le tissus clair d'ameublement aux dimensions du patron papier en ajoutant 3cm pour faire les ourlets.\n\nFaire une poche en tissus  en forme de carré de 20 cm de côté, et la coudre  à l'emplacement du volant dans laquelle viendra se glisser le support du volant (disque en carton bois).\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate . Les coudre aux emplacements prévus sur la cabine\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
+                "content": "Découper le tissus clair d'ameublement aux dimensions du patron papier en ajoutant 3cm pour faire les ourlets.\n\nFaire une poche en tissus en forme de carré de 20 cm de côté, et la coudre  à l'emplacement du volant dans laquelle viendra se glisser le support du volant (disque en carton bois).\n\nPrendre d' autre tissus pour fabriquer les éléments ( le phare, poignée, rétroviseur) en les bourrant de ouate . Les coudre aux emplacements prévus sur la cabine\n\nCoudre le ruban pour délimiter les contours de la portière.\n",
                 "inputs": [
                     {
                         "component": {
@@ -389,7 +389,7 @@
             {
                 "title": "Préparation des leds",
                 "duration": 14400,
-                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
+                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds. Sur la photo vous ne verrez qu'une led, nous avons finalement opté pour les assembler deux par deux.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
                 "inputs": [
                     {
                         "component": {
@@ -405,6 +405,20 @@
                             "quantity": 1,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/prepa-leds.jpg",
+                            "caption": "préparation des leds"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "images/prepa-leds-tuyau.jpg",
+                            "caption": "Insertion leds dans le tuyau"
                         }
                     }
                 ]
@@ -627,7 +641,7 @@
             {
                 "title": "Assemblage de l'ensemble",
                 "duration": 300,
-                "content": "Sur la photo ci-jointe, trouver le récapitulatif du principe de fonctionnement du prototype. Le nombre d'étapes aura des incidences sur le code, alors n'oubliez pas de l'ajuster dans le cas où vous adaptez ce prototype."
+                "content": "Glisser le support du volant avec le bouton poussoir dans la poche prévue à cet effet sur la cabine. Faire un trou sur le tissus arrière de manière à pouvoir passer les fils du bouton poussoir et les relier à la carte Teensy sur la broche 8 de la teensy et au circuit de leds (voir étape 12). Prévoir une longueur de fils suffisament long pour atteindre le boitier."
             }
         ]
     }
