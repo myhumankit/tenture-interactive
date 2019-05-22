@@ -38,6 +38,12 @@
                     "url": "images/tenture-finale.jpg",
                     "caption": "Tenture finale"
                 }
+            },
+            {
+                "image": {
+                    "url": "images/camion_fini.jpg",
+                    "caption": "Tenture finale"
+                }
             }
         ],
         "steps": [
@@ -469,7 +475,7 @@
                     },
                     {
                         "component": {
-                            "slug": "condensateur-non-polarise-0.05Uf",
+                            "slug": "condensateur-ceramique-0.05Uf",
                             "quantity": 1
                         }
                     },
