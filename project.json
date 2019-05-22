@@ -451,6 +451,65 @@
                 ]
             },
             {
+                "title": "Fabrication de l'ampli",
+                "duration": 3600,
+                "content": "Couper un morceau de veroboard à bande de 12 7 (voir circuit).\nRéaliser le circuit en se référant au schéma.",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "LM-386",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "condensateur-electrolytique-250Uf",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "condensateur-non-polarise-0.05Uf",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "resistance-10K",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "potentiometre-A10K",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "speaker-8-Ohms",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "fil-de-cablage-multibrins-0.2",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components "
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/ampli_gain20DB_veroboard.png",
+                            "caption": "circuit ampli"
+                        }
+                    }
+                ]
+            },
+            {
                 "title": "Téléversement du code",
                 "duration": 300,
                 "content": "",
@@ -485,7 +544,7 @@
             {
                 "title": "Assemblage de l'ensemble",
                 "duration": 300,
-                "content": ""
+                "content": "Couper un morceau de veroboard à bande de 12 7 (voir circuit).\nRéaliser le circuit en se référant au schéma."
             }
         ]
     }
