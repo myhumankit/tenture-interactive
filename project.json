@@ -48,18 +48,22 @@
         ],
         "steps": [
             {
+                "title": "Principe de fonctionnement",
+                "duration": 300,
+                "content": "Sur la photo ci-jointe, trouver le récapitulatif du principe de fonctionnement du prototype. Le nombre d'étapes aura des incidences sur le code, alors n'oubliez pas de l'ajuster dans le cas où vous adaptez ce prototype.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/principe-fonctionnement.jpg",
+                            "caption": "Principe de fonctionnement"
+                        }
+                    }
+                ]
+            },
+            {
                 "title": "Confection d'un patron en papier",
                 "duration": 7200,
                 "content": "Afin d'ajuster les dimensions de la tenture , il est fortement conseillé de réaliser un patron en papier. Celui-ci nous permet de réaliser les découpes de tissus aux bonnes dimensions et d'anticiper les longueurs de fils nécessaires pour l'électronique entre chaque pictogramme.",
-                "inputs": [
-                    {
-                        "tool": {
-                            "slug": "ciseaux",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    }
-                ],
                 "media": [
                     {
                         "image": {
@@ -71,6 +75,15 @@
                         "image": {
                             "url": "images/principe-fonctionnement.jpg",
                             "caption": "Principe de fonctionnement"
+                        }
+                    }
+                ],
+                "inputs": [
+                    {
+                        "tool": {
+                            "slug": "ciseaux",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
                         }
                     }
                 ]
@@ -143,6 +156,20 @@
                 "title": "Confection de la route",
                 "duration": 300,
                 "content": "Bande de scratch fil aiguilles tissu moelleux doux\n\nPositionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguilles à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "fabrication-route2.jpg",
+                            "caption": "fabrication route"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "fabrication-route3.jpg",
+                            "caption": "fabrication route"
+                        }
+                    }
+                ],
                 "inputs": [
                     {
                         "component": {
@@ -164,48 +191,12 @@
                             "quantity": 30
                         }
                     }
-                ],
-                "media": [
-                    {
-                        "image": {
-                            "url": "fabrication-route2.jpg",
-                            "caption": "fabrication route"
-                        }
-                    },
-                    {
-                        "image": {
-                            "url": "fabrication-route3.jpg",
-                            "caption": "fabrication route"
-                        }
-                    }
                 ]
             },
             {
                 "title": "Fabrication du volant",
                 "duration": 3600,
                 "content": "Découper dans du tissu 1 bande de tissu noir 100 cm X 10 cm.\nDécouper dans du tissu 2 bandes de tissu noir 15 cm x 80 cm.\nDécouper deux cercles de 7 cm de diamètre dans du tissus d'une autre couleur.\nDécouper un cercle de 6cm de diamètre en carton bois ou contreplaqué de 3mm.\n\nCoudre la bande de tissu pour en faire la forme d'un boudin qu'on remplit avec de la ouate et coudre les extrémités pour réaliser le volant. \n\nConfectionner avec les autres boudins la forme du volant selon le modèle présenté en photo.\n\nDécouper un cercle  de 6 cm de diamètre en contreplaqué ou en carton bois à l'aide d'une machine de découpe laser ou d'un cutter. Le placer entre deux cercles en tissu rembourrés de ouate. Coudre les cercles de tissu entre eux pour former le centre du volant, et le coudre sur le volant.\n\nLe centre du volant en principe klaxon, est ici pour notre usage le bouton déclencheur des différentes étapes de la tenture.",
-                "inputs": [
-                    {
-                        "component": {
-                            "slug": " 1-bande-tissu-noir100*10cm ",
-                            "quantity": 1
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "bande-tissu-15*80cm",
-                            "quantity": 2
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "contreplaque-peuplier-ep-3-mm",
-                            "quantity": 0.06,
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-components"
-                        }
-                    }
-                ],
                 "media": [
                     {
                         "image": {
@@ -237,12 +228,42 @@
                             "caption": "volant"
                         }
                     }
+                ],
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " 1-bande-tissu-noir100*10cm ",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "bande-tissu-15*80cm",
+                            "quantity": 2
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "contreplaque-peuplier-ep-3-mm",
+                            "quantity": 0.06,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
                 ]
             },
             {
                 "title": "Interrupteur du volant",
                 "duration": 1800,
                 "content": "Découper un cercle dans du carton bois d'une épaisseur de 3 mm et d'un diamètre de 19 cm à la laser.\n\nSouder deux fils de connexion Rouge et Noir sur chaque patte du bouton poussoir.\n\nPercer 4 trous au centre de la planche de contreplaqué. Insérer un bouton poussoir .\n\n\n\nFixer à la \"colle à chaud\" le bouton interrupteur sur la planche Placer la planche dans une pochette pré-déterminée de la cabine - derrière la fenêtre par exemple ",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/support-volant-bouton.jpg",
+                            "caption": "support volant avec bouton intégré"
+                        }
+                    }
+                ],
                 "inputs": [
                     {
                         "component": {
@@ -292,14 +313,6 @@
                             "quantity": 0.19,
                             "github_organization": "myhumankit",
                             "github_repository": "myworkshop-humanlab-components"
-                        }
-                    }
-                ],
-                "media": [
-                    {
-                        "image": {
-                            "url": "images/support-volant-bouton.jpg",
-                            "caption": "support volant avec bouton intégré"
                         }
                     }
                 ]
@@ -397,6 +410,14 @@
                 "title": "Circuit électronique pour contrôler les leds",
                 "duration": 300,
                 "content": "Couper au cutter un morceau de veroboard à bandes de 8 colonnes x 6 lignes.\nPercer les trous pour couper les pistes figurant en rouge et blanc sur le circuit.\nSouder les résistances, puis les fils allant aux éléments qui ne sont pas soudés directement sur le circuit (bouton poussoir et interrupteur et entrée alimentation micro usb).\n",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/circuit_neopixels_teensy_tenture_interractive.png",
+                            "caption": "circuit pour leds neopixels"
+                        }
+                    }
+                ],
                 "inputs": [
                     {
                         "component": {
@@ -469,20 +490,20 @@
                             "github_repository": "myworkshop-humanlab-tools"
                         }
                     }
-                ],
-                "media": [
-                    {
-                        "image": {
-                            "url": "images/circuit_neopixels_teensy_tenture_interractive.png",
-                            "caption": "circuit pour leds neopixels"
-                        }
-                    }
                 ]
             },
             {
                 "title": "Fabrication de l'ampli",
                 "duration": 3600,
                 "content": "Couper un morceau de veroboard à bande de 12 x 7 trous (voir circuit).\nRéaliser le circuit en se référant au schéma.",
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/ampli_gain20DB_veroboard.png",
+                            "caption": "circuit ampli"
+                        }
+                    }
+                ],
                 "inputs": [
                     {
                         "component": {
@@ -528,14 +549,6 @@
                             "github_repository": "myworkshop-humanlab-components "
                         }
                     }
-                ],
-                "media": [
-                    {
-                        "image": {
-                            "url": "images/ampli_gain20DB_veroboard.png",
-                            "caption": "circuit ampli"
-                        }
-                    }
                 ]
             },
             {
@@ -555,27 +568,6 @@
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
                 "content": "Découper à la machine laser le fichier DXF ci-joint sur du contreplaqué de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\nFixer le potentiomètre sur le couvercle.\nColler avec du double face ou avec des petites vis les circuits au fond du boitier",
-                "inputs": [
-                    {
-                        "tool": {
-                            "slug": "machine-laser",
-                            "github_organization": "myhumankit",
-                            "github_repository": "myworkshop-humanlab-tools"
-                        }
-                    },
-                    {
-                        "file": {
-                            "name": "Boîtier pour le montage électronique",
-                            "url": "documents/Tenture_box_120x80x70_3mm.dxf"
-                        }
-                    },
-                    {
-                        "component": {
-                            "slug": "contreplaque-peuplier-ep-3-mm",
-                            "quantity": 1
-                        }
-                    }
-                ],
                 "media": [
                     {
                         "image": {
@@ -601,12 +593,33 @@
                             "caption": "Vue du boitier monté"
                         }
                     }
+                ],
+                "inputs": [
+                    {
+                        "tool": {
+                            "slug": "machine-laser",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    },
+                    {
+                        "file": {
+                            "name": "Boîtier pour le montage électronique",
+                            "url": "documents/Tenture_box_120x80x70_3mm.dxf"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "contreplaque-peuplier-ep-3-mm",
+                            "quantity": 1
+                        }
+                    }
                 ]
             },
             {
                 "title": "Assemblage de l'ensemble",
                 "duration": 300,
-                "content": ""
+                "content": "Sur la photo ci-jointe, trouver le récapitulatif du principe de fonctionnement du prototype. Le nombre d'étapes aura des incidences sur le code, alors n'oubliez pas de l'ajuster dans le cas où vous adaptez ce prototype."
             }
         ]
     }
