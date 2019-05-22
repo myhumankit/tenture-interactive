@@ -459,7 +459,7 @@
             {
                 "title": "Fabrication de l'ampli",
                 "duration": 3600,
-                "content": "Couper un morceau de veroboard à bande de 12 7 (voir circuit).\nRéaliser le circuit en se référant au schéma.",
+                "content": "Couper un morceau de veroboard à bande de 12 x 7 trous (voir circuit).\nRéaliser le circuit en se référant au schéma.",
                 "inputs": [
                     {
                         "component": {
