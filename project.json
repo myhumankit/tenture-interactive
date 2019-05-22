@@ -64,12 +64,6 @@
                             "url": "images/patron-papier.jpg",
                             "caption": "patron en papier"
                         }
-                    },
-                    {
-                        "image": {
-                            "url": "images/principe-fonctionnement.jpg",
-                            "caption": "Principe de fonctionnement"
-                        }
                     }
                 ],
                 "inputs": [
