@@ -577,7 +577,7 @@
             {
                 "title": "Fabrication du boitier électronique",
                 "duration": 3600,
-                "content": "Découper à la machine laser le fichier DXF ci-joint sur du contreplaqué de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\nFixer le potentiomètre sur le couvercle.\nColler avec du double face ou avec des petites vis les circuits au fond du boitier",
+                "content": "Découper à la machine laser le fichier DXF ci-joint (Boîtier pour le montage électronique) sur du contreplaqué de peuplier d'une épaisseur de 3mm.\nColler les différentes parties du boitier ensemble sauf le couvercle.\nPercer un trou du diamètre du potentiomètre à la perceuse ou à la découpe laser . Nous l'avons fait à la perceuse, c'est pourquoi le trou n'est pas sur le fichier.\nFixer le potentiomètre sur le couvercle.\nColler avec du double face ou avec des petites vis les circuits au fond du boitier",
                 "media": [
                     {
                         "image": {
@@ -621,7 +621,9 @@
                     {
                         "component": {
                             "slug": "contreplaque-peuplier-ep-3-mm",
-                            "quantity": 1
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
                         }
                     }
                 ]
