@@ -168,14 +168,14 @@
                 "media": [
                     {
                         "image": {
-                            "url": "images/fabrication-route2.jpg",
-                            "caption": "fabrication route 1"
+                            "url": "fabrication-route2.jpg",
+                            "caption": "fabrication route"
                         }
                     },
                     {
                         "image": {
-                            "url": "images/fabrication-route3.jpg",
-                            "caption": "fabrication route 2"
+                            "url": "fabrication-route3.jpg",
+                            "caption": "fabrication route"
                         }
                     }
                 ]
@@ -459,7 +459,7 @@
             {
                 "title": "Fabrication de l'ampli",
                 "duration": 3600,
-                "content": "Couper un morceau de veroboard à bande de 12x7 trous (voir circuit).\nRéaliser le circuit en se référant au schéma.",
+                "content": "Couper un morceau de veroboard à bande de 12 7 (voir circuit).\nRéaliser le circuit en se référant au schéma.",
                 "inputs": [
                     {
                         "component": {
@@ -531,7 +531,25 @@
             {
                 "title": "Préparation des leds",
                 "duration": 14400,
-                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n"
+                "content": "Nous avons décidé d'illuminer chaque pictogramme par deux leds, soit 9x2=18 leds.\nNous pouvons donc découper 9 sets de deux leds dans le ruban de leds.\n\nPrendre ensuite la mesure entre chaque pictogramme pour déterminer la longueur de fil qui les reliera.\nEtamer ensuite les fils de chaque côté et les souder sur chaque entrée/sortie des leds pour former le circuit qui reliera les pictogrammes entre eux. \n\nIntroduire ensuite cette bande de leds dans un tuyau de plastique transparent de 15mm de diamètre. Il est conseillé de souder un long fil sur la led se situant à l'extrémité afin de pouvoir passer le fil facilement dans le tuyau et tirer ensuite les leds.\n\nNous  illuminons la route, en laissant quelques centimètres entre chaque leds. Nous utiliserons 17 leds pour la route. Procéder de la même manière que pour les leds des pictogrammes pour les relier entre elles.\n\nSachant que nous avons une alimentation de 2.1 ampères et que chaque led consomme 60 mA, nous pouvons utiliser jusqu'à 35 leds.\n\n\n\n\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": " \tfil-de-cablage-multibrins",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-leds-neopixel-WS2812-RGB.json",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    }
+                ]
             },
             {
                 "title": "Fabrication du boitier électronique",
