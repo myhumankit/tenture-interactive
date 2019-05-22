@@ -109,7 +109,15 @@
             {
                 "title": "Confection du fourgon",
                 "duration": 300,
-                "content": ""
+                "content": "Tissus d'ameublement  de couleur foncée 100 cm X 200 cm pour la fabrication du fourgon du camion. \n\nSe référer au patron en papier pour ajuster les mesures.\n\nDécouper assez large les mesures nécessaires dans les tissus afin de garder suffisamment de matière pour coudre les ourlets. Coudre ensuite les parties du camion entre elles.\n\nCoudre ensuite le tissus à poil long gris qui figure la route \n\nCoudre à la machine les pictogrammes préalablement confectionnés sur la remorque aux endroits déterminés sur le patron.",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "tissus-ameublement-de-100cm*200cm",
+                            "quantity": 1
+                        }
+                    }
+                ]
             },
             {
                 "title": "Fabrication du volant",
@@ -415,6 +423,47 @@
                 "title": "Assemblage de l'ensemble",
                 "duration": 300,
                 "content": ""
+            },
+            {
+                "title": "Confection de la route",
+                "duration": 300,
+                "content": "Bande de scratch fil aiguilles tissu moelleux doux\n\nPositionner le tissus doux figurant la route sur la tenture remorque et fixer avec des aiguiklle à tête.\nCoudre la route (tissu doux ) sur la longueur basse. \nCoudre les bandes de scratch sur la  partie haute de la route de manière à ce que le tuyau de leds puisse être retiré pour laver la tenture. Le scratch permet de fixer en serrant le tuyau, afin qu'il ne vrille pas.\n\n",
+                "inputs": [
+                    {
+                        "component": {
+                            "slug": "tissus-doux",
+                            "quantity": 1
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "ruban-velcro-noir-20mm-boucles",
+                            "quantity": 1,
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-components"
+                        }
+                    },
+                    {
+                        "component": {
+                            "slug": "aiguilles-a-tete",
+                            "quantity": 30
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "fabrication-route2.jpg",
+                            "caption": "fabrication-route2"
+                        }
+                    },
+                    {
+                        "image": {
+                            "url": "fabrication-route3.jpg",
+                            "caption": "fabrication route3"
+                        }
+                    }
+                ]
             }
         ]
     }
